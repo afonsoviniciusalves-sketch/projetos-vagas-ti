@@ -46,7 +46,7 @@ Quais tecnologias são mais exigidas nas vagas de TI e como essa demanda varia p
 
 - **Agrupamento de cargos incompleto:** 69 das 811 vagas (cerca de 8,5%) ficaram na categoria "Outros" por não conterem nenhuma palavra-chave da tabela. O refinamento da lista está pendente.
 
-- **Zeros ambíguos em `Total\_applicants`:** 4 empresas (Wipro, ACURA, LTIMindtree e IDESLABS) concentram todos os zeros (16% a 25% das suas vagas), enquanto 6 empresas não têm nenhum. Esse padrão sugere possível diferença na coleta, e a causa não foi confirmada.
+- **Zeros ambíguos em `Total_applicants`:** 4 empresas (Wipro, ACURA, LTIMindtree e IDESLABS) concentram todos os zeros (16% a 25% das suas vagas), enquanto 6 empresas não têm nenhum. Esse padrão sugere possível diferença na coleta, e a causa não foi confirmada.
 
 - **Sem dimensão temporal:** o dataset não tem data de publicação, então a análise mostra um retrato do momento, não evolução ao longo do tempo.
 
