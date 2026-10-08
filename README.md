@@ -2,7 +2,7 @@
 
 
 
-Projeto de análise de dados em Excel para praticar limpeza, tratamento, análise exploratória e documentação, usando um conjunto real de vagas de emprego de TI. O escopo está em expansão: o que começou como um mini projeto está sendo ampliado.
+Projeto de análise de dados em Excel para praticar limpeza, tratamento, análise exploratória e documentação, usando um conjunto real de vagas de emprego de TI. O escopo está em expansão.
 
 
 
@@ -10,7 +10,7 @@ Projeto de análise de dados em Excel para praticar limpeza, tratamento, anális
 
 
 
-- Arquivo original: `data/raw/final\_data.csv`
+- Arquivo original: `data/raw/final_data.csv`
 
 - Fonte: [LinkedIn Tech Jobs (Kaggle)](https://www.kaggle.com/datasets/joebeachcapital/linkedin-jobs)
 
@@ -34,7 +34,7 @@ Quais tecnologias são mais exigidas nas vagas de TI e como essa demanda varia p
 
 - Espaços extras no início dos textos foram removidos.
 
-- 126 vagas com `Total_applicants = 0` foram mantidas e sinalizadas na coluna `Aplicações Confiáveis`, pois não é possível confirmar se o zero é real ou dado não coletado.
+- 126 vagas com `Total_applicants = 0` foram mantidas e sinalizadas como `Indefinidos` na coluna `Aplicações Confiáveis`, e as vagas restantes (as aplicações confiáveis de fato) foram apenas sinalizadas com `-`. Essa marcação foi feita pois não é possível confirmar se o zero é real ou dado não coletado.
 
 - Os 392 cargos distintos de `Designation` foram agrupados em categorias por palavra-chave, na coluna `Cargo Agrupado`. Os critérios estão na aba `Categorias` (a primeira palavra encontrada, em ordem de prioridade, define a categoria).
 
